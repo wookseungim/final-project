@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/install
+
+Name: self_drive
+Description: Description of self_drive
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs rospy sensor_msgs std_msgs
