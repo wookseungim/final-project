@@ -1,0 +1,3 @@
+Symlinking /home/pi/catkin_ws/devel/share/self_drive/cmake/self_driveConfig.cmake
+Symlinking /home/pi/catkin_ws/devel/share/self_drive/cmake/self_driveConfig-version.cmake
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/self_drive.pc
