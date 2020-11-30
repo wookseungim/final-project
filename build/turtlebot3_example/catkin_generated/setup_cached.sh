@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/pi/catkin_ws/devel/.private/turtlebot3_example:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/pi/catkin_ws/devel/.private/turtlebot3_example/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/pi/catkin_ws/devel/.private/turtlebot3_example/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/pi/catkin_ws/build/turtlebot3_example'
 export PYTHONPATH="/home/pi/catkin_ws/devel/.private/turtlebot3_example/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/pi/catkin_ws/devel/.private/turtlebot3_example/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
