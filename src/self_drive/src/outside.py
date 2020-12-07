@@ -16,9 +16,10 @@ class SelfDrive:
     def lds_callback(self, scan):
         self.scanned = scan.ranges
         self.front_obs_detect()
+
         if scan.ranges[90] > 0.40:
-            if scan.ranges[330] != 0:
-                self.cosTheta = scan.ranges[225] / scan.ranges[315]
+            if scan.ranges[270] > 0.2:
+                self.turn_right()
             if self.mean <= 0.45:
                 self.turn_left()
             elif scan.ranges[0] > 0.25:
@@ -30,7 +31,6 @@ class SelfDrive:
         elif (scan.ranges[200] / scan.ranges[225]) > 0.25:
             self.turn_right()
 
-
     def go_straight(self):
         self.turtle_vel.linear.x = 0.16
         self.turtle_vel.angular.z = 0.0
@@ -38,12 +38,12 @@ class SelfDrive:
 
     def turn_left(self):
         self.turtle_vel.linear.x = 0.02
-        self.turtle_vel.angular.z = 2
+        self.turtle_vel.angular.z = 1.35
         self.publisher.publish(self.turtle_vel)
 
     def turn_right(self):
         self.turtle_vel.linear.x = 0.12
-        self.turtle_vel.angular.z = -1.35
+        self.turtle_vel.angular.z = -2.35
         self.publisher.publish(self.turtle_vel)
 
     def adjust_to_right(self):
@@ -70,3 +70,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
