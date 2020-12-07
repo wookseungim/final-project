@@ -1,4 +1,4 @@
-Linked: (/home/pi/catkin_ws/devel/.private/joint_state_publisher_gui/share/joint_state_publisher_gui/cmake/joint_state_publisher_guiConfig-version.cmake, /home/pi/catkin_ws/devel/share/joint_state_publisher_gui/cmake/joint_state_publisher_guiConfig-version.cmake)
-Linked: (/home/pi/catkin_ws/devel/.private/joint_state_publisher_gui/share/joint_state_publisher_gui/cmake/joint_state_publisher_guiConfig.cmake, /home/pi/catkin_ws/devel/share/joint_state_publisher_gui/cmake/joint_state_publisher_guiConfig.cmake)
-Linked: (/home/pi/catkin_ws/devel/.private/joint_state_publisher_gui/lib/pkgconfig/joint_state_publisher_gui.pc, /home/pi/catkin_ws/devel/lib/pkgconfig/joint_state_publisher_gui.pc)
-Linked: (/home/pi/catkin_ws/devel/.private/joint_state_publisher_gui/lib/python2.7/dist-packages/joint_state_publisher_gui/__init__.py, /home/pi/catkin_ws/devel/lib/python2.7/dist-packages/joint_state_publisher_gui/__init__.py)
+Symlinking /home/pi/catkin_ws/devel/share/joint_state_publisher_gui/cmake/joint_state_publisher_guiConfig-version.cmake
+Symlinking /home/pi/catkin_ws/devel/share/joint_state_publisher_gui/cmake/joint_state_publisher_guiConfig.cmake
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/joint_state_publisher_gui.pc
+Symlinking /home/pi/catkin_ws/devel/lib/python2.7/dist-packages/joint_state_publisher_gui/__init__.py
