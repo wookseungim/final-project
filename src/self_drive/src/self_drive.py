@@ -17,6 +17,8 @@ class SelfDrive:
         self.scanned = scan.ranges
         self.front_obs_detect()
         if scan.ranges[90] > 0.40:
+            if scan.ranges[270] > 0.2:
+                self.turn_right()
             if scan.ranges[330] != 0:
                 self.cosTheta = scan.ranges[225] / scan.ranges[315]
             if self.mean <= 0.45:
